@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Welcome(props){
-  const {name} = props;
+function Welcome({name}){
   return (
-    <h2>{name}</h2>
+  <div>
+  <h2>{name}</h2>
+  </div>
   )
 }
 

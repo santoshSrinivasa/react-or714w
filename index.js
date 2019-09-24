@@ -7,9 +7,9 @@ import './style.css';
 function Login(){
   return (<div>
     <h3>two ways of destructuring props</h3>
-    <h3>parameterzied</h3>
+    <p>parameterzied</p>
     <Welcome name="santosh" />
-    <h3>inside function body</h3>
+    <p>inside function body</p>
     <Guest name="abc" />
     </div>
   )
